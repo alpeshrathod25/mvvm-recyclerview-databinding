@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/drawable-anydpi-v21/cu_ic_refresh_24_dp.xml",
+        "source": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/generated/res/pngs/release/drawable-anydpi-v21/cu_ic_refresh_24_dp.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/home/alpesh/.android/build-cache/b0ab1a679cebf9858b0f0b97714bb130d8eb7719/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/home/alpesh/.android/build-cache/b0ab1a679cebf9858b0f0b97714bb130d8eb7719/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    }
+]

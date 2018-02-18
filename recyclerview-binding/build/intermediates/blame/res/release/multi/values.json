@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/recyclerview-binding/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 40,
+                    "endOffset": 91
+                },
+                "from": {
+                    "file": "/home/alpesh/.android/build-cache/453cb0154be762e16efe7e1dbcbaf5e55ad4e596/output/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 40,
+                        "endOffset": 91
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 96,
+                    "endColumn": 56,
+                    "endOffset": 148
+                },
+                "from": {
+                    "file": "/home/alpesh/.android/build-cache/74a9d2e20d932fe0217c123d8b1b8a1536fc53a1/output/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 56,
+                        "endOffset": 107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 153,
+                    "endColumn": 42,
+                    "endOffset": 191
+                },
+                "from": {
+                    "file": "/home/alpesh/.android/build-cache/74a9d2e20d932fe0217c123d8b1b8a1536fc53a1/output/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 112,
+                        "endColumn": 42,
+                        "endOffset": 150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 196,
+                    "endColumn": 40,
+                    "endOffset": 232
+                },
+                "from": {
+                    "file": "/home/alpesh/.android/build-cache/74a9d2e20d932fe0217c123d8b1b8a1536fc53a1/output/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 155,
+                        "endColumn": 40,
+                        "endOffset": 191
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 237,
+                    "endColumn": 58,
+                    "endOffset": 291
+                },
+                "from": {
+                    "file": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/recyclerview-binding/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 58,
+                        "endOffset": 70
+                    }
+                }
+            }
+        ]
+    }
+]

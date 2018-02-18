@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/anim/design_snackbar_out.xml",
+        "source": "/home/alpesh/.android/build-cache/b0ab1a679cebf9858b0f0b97714bb130d8eb7719/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/home/alpesh/.android/build-cache/b0ab1a679cebf9858b0f0b97714bb130d8eb7719/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/home/alpesh/.android/build-cache/bab95de605bfe6e17b0fe75d892360966d8fba16/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/anim/design_fab_in.xml",
+        "source": "/home/alpesh/.android/build-cache/b0ab1a679cebf9858b0f0b97714bb130d8eb7719/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/home/alpesh/.android/build-cache/bab95de605bfe6e17b0fe75d892360966d8fba16/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/anim/design_fab_out.xml",
+        "source": "/home/alpesh/.android/build-cache/b0ab1a679cebf9858b0f0b97714bb130d8eb7719/output/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/anim/design_snackbar_in.xml",
+        "source": "/home/alpesh/.android/build-cache/b0ab1a679cebf9858b0f0b97714bb130d8eb7719/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/home/alpesh/.android/build-cache/b0ab1a679cebf9858b0f0b97714bb130d8eb7719/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/alpesh/.android/build-cache/bab95de605bfe6e17b0fe75d892360966d8fba16/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/home/alpesh/.android/build-cache/bab95de605bfe6e17b0fe75d892360966d8fba16/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/home/alpesh/.android/build-cache/bab95de605bfe6e17b0fe75d892360966d8fba16/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/home/alpesh/.android/build-cache/bab95de605bfe6e17b0fe75d892360966d8fba16/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/home/alpesh/.android/build-cache/bab95de605bfe6e17b0fe75d892360966d8fba16/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/home/alpesh/.android/build-cache/bab95de605bfe6e17b0fe75d892360966d8fba16/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/alpesh/.android/build-cache/bab95de605bfe6e17b0fe75d892360966d8fba16/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/media/alpesh/Study/Android/Workspaces/Workspace_AndroidStudio_Example/MVVM-with-RXJava-and-Retrofit-Users-Generated-Example--master/commonutils/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/home/alpesh/.android/build-cache/bab95de605bfe6e17b0fe75d892360966d8fba16/output/res/anim/abc_slide_in_bottom.xml"
+    }
+]

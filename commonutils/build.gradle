@@ -1,0 +1,167 @@
+/*
+ * Copyright (c) 2016.
+ *  Nirav Tukadiya
+ *  Programmer Analyst ( Android)
+ *  Meditab Software Inc.
+ */
+
+apply plugin: 'com.android.library'
+apply plugin: 'com.neenbedankt.android-apt'
+
+
+Properties gProp = new Properties()
+gProp.load(project.rootProject.file('gradle.properties').newDataInputStream())
+
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'common-utils'
+
+    publishedGroupId = 'com.meditab.commonutils'
+    libraryName = 'CommonUtils'
+    artifact = 'common-utils'
+
+    libraryDescription = 'A library for the common components being used in meditab.'
+
+    siteUrl = 'http://mgit.meditab.local/Devmobtl/commonutils-android'
+    gitUrl = 'http://mgit.meditab.local/Devmobtl/commonutils-android.git'
+
+    libraryVersion = gProp.getProperty(LIBRARY_VERSION)
+
+    developerId = 'miteshpithadiya'
+    developerName = 'Mitesh Pithadiya'
+    developerEmail = 'miteshvanp@hotmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+
+
+def siteUrl = 'http://mgit.meditab.local/Devmobtl/commonutils-android'
+def gitUrl = 'http://mgit.meditab.local/Devmobtl/commonutils-android.git'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 110
+        versionName gProp.getProperty(LIBRARY_VERSION)
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+apply plugin: 'com.jfrog.bintray'
+
+version = gProp.getProperty(LIBRARY_VERSION)
+
+bintray {
+    user = properties.getProperty("bintray.user")
+    key = properties.getProperty("bintray.apikey")
+
+    configurations = ['archives']
+    pkg {
+        repo = "maven"
+        name = "CommonUtils"
+        websiteUrl = siteUrl
+        vcsUrl = gitUrl
+        licenses = ["Apache-2.0"]
+        publish = true
+    }
+}
+
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = "com.meditab.commonutils"
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                name 'A library for common components.'
+                url siteUrl
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'miteshpithadiya'
+                        name 'Mitesh Pithadiya'
+                        email 'miteshvanp@hotmail.com'
+                    }
+                }
+                scm {
+                    connection gitUrl
+                    developerConnection gitUrl
+                    url siteUrl
+
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.4.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:cardview-v7:25.4.0'
+    compile 'com.android.support:design:25.4.0'
+    compile 'com.android.support:recyclerview-v7:25.4.0'
+    compile 'org.jetbrains:annotations-java5:15.0'
+    compile 'com.jakewharton:butterknife:8.0.1'
+    // Rx related libraries
+    compile 'io.reactivex:rxjava:1.0.10'
+    compile 'io.reactivex:rxandroid:1.1.0'
+    //compile 'com.netflix.rxjava:rxjava-core:0.+'
+    // Networking related libraries
+    compile 'com.squareup.okhttp3:logging-interceptor:3.2.0'
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    compile 'com.squareup.retrofit2:converter-jackson:2.0.2'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.7.0'
+    compile 'com.google.firebase:firebase-core:9.4.0'
+    compile 'com.google.firebase:firebase-messaging:9.4.0'
+    compile 'com.google.android.gms:play-services-base:9.4.0'
+    compile 'com.estimote:sdk:0.10.+@aar'
+}
+
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'sources'
+}
+
+task javadoc(type: Javadoc) {
+    source = android.sourceSets.main.java.srcDirs
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+artifacts {
+    archives javadocJar
+    archives sourcesJar
+}
+
+task findConventions << {
+    println project.getConvention()
+}

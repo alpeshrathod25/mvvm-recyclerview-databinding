@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="EasyRecyclerView">
+        <attr name="enableSwipeToRefresh" format="boolean"></attr>
+        <attr name="enableLoadMore" format="boolean"></attr>
+        <attr name="loadingText" format="string"></attr>
+        <attr name="noDataMessage" format="string"></attr>
+        <attr name="retryText" format="string"></attr>
+        <attr name="retryIcon" format="integer"></attr>
+        <attr name="setDefaultItemAnimator" format="boolean"></attr>
+        <attr name="setDefaultItemDecoration" format="boolean"></attr>
+
+    </declare-styleable>
+</resources>
